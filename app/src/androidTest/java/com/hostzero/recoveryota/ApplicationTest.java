@@ -1,4 +1,4 @@
-package com.resurrection.ota;
+package com.hostzero.recoveryota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
