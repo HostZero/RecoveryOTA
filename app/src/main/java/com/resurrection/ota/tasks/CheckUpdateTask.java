@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.tasks;
+package com.hostzero.recoveryota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.resurrection.ota.MainActivity;
-import com.resurrection.ota.R;
-import com.resurrection.ota.configs.AppConfig;
-import com.resurrection.ota.configs.LinkConfig;
-import com.resurrection.ota.configs.OTAConfig;
-import com.resurrection.ota.configs.OTAVersion;
-import com.resurrection.ota.dialogs.WaitDialogHandler;
-import com.resurrection.ota.utils.OTAUtils;
-import com.resurrection.ota.xml.OTADevice;
-import com.resurrection.ota.xml.OTAParser;
+import com.hostzero.recoveryota.MainActivity;
+import com.hostzero.recoveryota.R;
+import com.hostzero.recoveryota.configs.AppConfig;
+import com.hostzero.recoveryota.configs.LinkConfig;
+import com.hostzero.recoveryota.configs.OTAConfig;
+import com.hostzero.recoveryota.configs.OTAVersion;
+import com.hostzero.recoveryota.dialogs.WaitDialogHandler;
+import com.hostzero.recoveryota.utils.OTAUtils;
+import com.hostzero.recoveryota.xml.OTADevice;
+import com.hostzero.recoveryota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 

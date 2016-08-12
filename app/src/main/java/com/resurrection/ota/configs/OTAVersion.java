@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.hostzero.recoveryota.configs;
 
 import android.content.Context;
 
-import com.resurrection.ota.utils.OTAUtils;
+import com.hostzero.recoveryota.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

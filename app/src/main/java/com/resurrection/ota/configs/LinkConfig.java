@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.hostzero.recoveryota.configs;
 
 import android.content.Context;
 
-import com.resurrection.ota.xml.OTALink;
-import com.resurrection.ota.xml.OTAParser;
-import com.resurrection.ota.utils.OTAUtils;
+import com.hostzero.recoveryota.xml.OTALink;
+import com.hostzero.recoveryota.xml.OTAParser;
+import com.hostzero.recoveryota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

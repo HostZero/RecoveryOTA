@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.utils;
+package com.hostzero.recoveryota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.resurrection.ota.configs.OTAConfig;
+import com.hostzero.recoveryota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;

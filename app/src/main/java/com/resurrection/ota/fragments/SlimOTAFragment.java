@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.fragments;
+package com.hostzero.recoveryota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.resurrection.ota.R;
-import com.resurrection.ota.configs.AppConfig;
-import com.resurrection.ota.configs.LinkConfig;
-import com.resurrection.ota.configs.OTAVersion;
-import com.resurrection.ota.dialogs.WaitDialogFragment;
-import com.resurrection.ota.tasks.CheckUpdateTask;
-import com.resurrection.ota.utils.OTAUtils;
-import com.resurrection.ota.xml.OTALink;
+import com.hostzero.recoveryota.R;
+import com.hostzero.recoveryota.configs.AppConfig;
+import com.hostzero.recoveryota.configs.LinkConfig;
+import com.hostzero.recoveryota.configs.OTAVersion;
+import com.hostzero.recoveryota.dialogs.WaitDialogFragment;
+import com.hostzero.recoveryota.tasks.CheckUpdateTask;
+import com.hostzero.recoveryota.utils.OTAUtils;
+import com.hostzero.recoveryota.xml.OTALink;
 
 import java.util.List;
 
@@ -59,7 +59,7 @@ public class SlimOTAFragment extends PreferenceFragment implements
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
 
-        addPreferencesFromResource(R.xml.ota);
+        addPreferencesFromResource(R.xml.recoveryota);
 
         mRomInfo = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_ROM_INFO);
         mCheckUpdate = (PreferenceScreen) getPreferenceScreen().findPreference(KEY_CHECK_UPDATE);

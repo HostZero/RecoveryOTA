@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.dialogs;
+package com.hostzero.recoveryota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.resurrection.ota.R;
+import com.hostzero.recoveryota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 
