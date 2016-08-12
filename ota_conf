@@ -6,9 +6,9 @@
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
 # * Chances are you only need to change the ota_url in this file 
 #
-ota_url=https://raw.githubusercontent.com/ResurrectionRemix/OTA/master/akhil.xml
+ota_url=https://raw.githubusercontent.com/HostZero/android_device_google_sprout/cm-13.0/ota/ota.xml
 release_type=Stable
-device_name=ro.rr.device
+device_name=(codename)
  
 #
 # VERSION
@@ -33,7 +33,6 @@ device_name=ro.rr.device
 #
 # uname -r will only be needed if using the app for kernels, not required here
 
-version_source=ro.rr.version
 version_delimiter=-
-version_position=3
-version_format=yyyyMMdd
+version_position=4
+version_format=3.0.2-X
