@@ -7,8 +7,7 @@
 # * Chances are you only need to change the ota_url in this file 
 #
 ota_url=https://raw.githubusercontent.com/HostZero/android_device_google_sprout/cm-13.0/ota/ota.xml
-release_type=Stable
-device_name=(codename)
+device_name=ro.product.device
  
 #
 # VERSION
@@ -17,7 +16,7 @@ device_name=(codename)
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.rr.version' : Parse the date 20150426 from 'ResurrectionRemix-M-v5.x.x-20150426-bacon'
+# Example with a property key 'ro.product.device' : sprout4
 #
 # Version source: ro.rr.version
 # Version delimiter: -
@@ -28,7 +27,7 @@ device_name=(codename)
 #
 # Version source: uname -r
 # Version delimiter: .
-# Version position: 3 (zero based)
+# Version position: 4 (zero based)
 # Version format:
 #
 # uname -r will only be needed if using the app for kernels, not required here
